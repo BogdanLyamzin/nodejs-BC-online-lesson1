@@ -1,11 +1,7 @@
-// const users = require("./users");
-// const {admins, managers} = require("./users");
-// console.log(users);
+import {admins, managers} from "./users.mjs";
 
-// const people = require("./users");
-// console.log(people)
-// console.log(admins);
-// console.log(managers);
+console.log(admins);
+console.log(managers);
 
 // const currentMonth = require("./currentMonth");
 // console.log(currentMonth)
@@ -13,8 +9,8 @@
 // const currentDate = require("./currentDate");
 // console.log(currentDate)
 
-// const currentMonth = require("./getMonth")();
-// console.log(`Номер текущего месяца - ${currentMonth}`)
+// const currentMonthNumber = require("./getMonth")();
+// console.log(`Номер текущего месяца - ${currentMonthNumber}`)
 
 // const [firstPeople, ...rest] = require("./people");
 // console.log(firstPeople);

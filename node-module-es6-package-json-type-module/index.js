@@ -1,7 +1,7 @@
-const users = require("./users");
-console.log(users);
-// console.log(admins);
-// console.log(managers);
+import {admins, managers} from "./users.js";
+
+console.log(admins);
+console.log(managers);
 
 // const currentMonth = require("./currentMonth");
 // console.log(currentMonth)
@@ -16,6 +16,6 @@ console.log(users);
 // console.log(firstPeople);
 // console.log(rest);
 
-const {form, modal} = require("./views");
-console.log(form);
-console.log(modal);
+// const {form, modal} = require("./views");
+// console.log(form);
+// console.log(modal);

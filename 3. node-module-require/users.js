@@ -8,5 +8,5 @@ exports.admins = admins;
 exports.managers = managers;
 
 module.exports = {
-    managers, admins
+    admins, managers
 }
